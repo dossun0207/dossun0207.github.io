@@ -1,101 +1,149 @@
-
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset='utf-8'>
 <style>
-table, tr, th, td {
-	border: solid 1px rgb(31, 4, 4);
-	border-collapse: collapse;
-	padding: 8px;
-}
+	*{padding: 0;
+	margin: 0;}
+
+header {border: bold 2px black;
+width: 100%; height: 120px; margin-top:0px;  
+font-size: 20px; background-color: #9fd890;
+text-align: center;}
+
+h2{padding-top: 5px;}
+
+nav {height: 30px; text-align: center; width: 1000px;
+margin: auto; border-bottom: 5px rgb(10, 65, 13);}
+
+li {list-style-type: none;}
+#list li{display: inline;}
+
+section {width: 710px; text-align:center;
+ margin: auto;height: auto;}
+
+table, th, tr, td {
+	border: solid 1px black;
+	border-collapse:collapse;
+	padding: 13px;
+	margin-top: 17px;
+	margin-bottom: 5px;
+    text-align: center;}
+	
+footer {
+border: bold 2px black;
+width: 100%; height: 150px; margin-top:30px;  
+font-size: 13px; background-color: #9fd890;}
+
+
+ #address
+ {float:left;
+  margin:20px 30px 20px 30px;
+  color:black;}
+
 </style>
 </head>
+
 <body>
-<h3>2학년1학기 백현영의시간표</h3>
+<header>
+	<h2>백현영의 홈페이지</h2>
 
-<table>
-	  <tr>
-<th>시간/과목</th><th>월</th> <th>화</th> <th>수</th> <th>목</th> <th>금</th>
-	  </tr>
+<nav></nav>
+		<ul id="list">
+		<li><a href='tag-selector_ex.html' target="_blank">호서안내페이지</a></li>
+		<li><a href='form_test.html'> 회원가입</a></li>
+		<li><a href='list.html'>루바토 펜션 안내</a></li>
+		<li><a href="호서야간개장.html">호서야간개장</a></li>
+		<li><a href='ex1_bg-color.html'>세일안내장</a></li>
+		<li><a href="ex2_menus.html">케이크 판매 목록</a></li>
+	</ul>
+	</nav><br>
+	</header>
 
-	  <tr>
-		<td>1교시</td> 
-		<td></td>
-		<td></td> 
-		<td></td>
-		<td>웹프로그래밍</td>
-		<td></td>
-      </tr>
-	
-	   <tr>
-		<td>2교시</td>
-		<td rowspan="2">웹프로그래밍</td> 
-		<td></td>
-		<td></td>
-		<td rowspan="3">경영정보시스템</td>
-		<td></td>
-	   </tr>
-
-		<td>3교시</td>
-		<td></td>
-		<td rowspan="2">대학영어회화</td>
-		<td></td>	
-		
-	  <tr>
-	  <td>4교시</td>
-	  <td rowspan="2">기업의 역사</td>
-	  <td></td>
-	  <td></td>
-	  </tr>
-
-
-	  <tr>
-	  <td>5교시</td>
-      <td rowspan="3">경영통계</td>
-	  <td rowspan="2">생활법률</td>
-	  <td></td>
-	  <td>채플</td>
-	  </tr>
-
-	  <td>6교시</td>
-	  <td></td>
-	  <td rowspan="2">디지털콘텐츠<br>비즈니스개론</td>
-	  <td></td>
-
-	  <tr>
-	  <td>7교시</td>
-	  <td></td>
-	  <td></td>
-	  <td>자기이해계발</td>
-	  </tr>
-
-	  <td>8교시</td>
-	  <td></td>
-	  <td>디지털콘텐츠<br>비즈니스개론</td>
-	  <td></td>
-	  <td></td>
-	  <td></td>
-
-	  <tr>
-	  <td>9교시</td>
-	  <td></td>
-	  <td>자기주도학습</td>
-	  <td></td>
-	  <td></td>
-	  <td></td>
+<section>
+		<table>
+			<tr>
+	  <th>시간/과목</th><th>월</th> <th>화</th> <th>수</th> <th>목</th> <th>금</th>
+			</tr>
 	  
-	  </tr>
-	  <a href='tag-selector_ex.html' target="_blank">[호서안내페이지]</a><br>
-	  <a href='form_test.html'> [회원가입]</a><br>
-	  <a href='list.html'>[루바토 펜션 안내]</a><br>
-	  <a href="호서야간개장.html">[호서야간개장]</a><br>
-	  <a href='ex1_bg-color.html'>[세일 안내장]</a><br>
-      <a href="ex_table.html">[월간일정표]</a><br>
-	  <a href="ex2_menus.html">[케이크 판매목록]</a><br>
+			<tr>
+			  <td>1교시</td> 
+			  <td></td>
+			  <td></td> 
+			  <td></td>
+			  <td>웹프로그래밍</td>
+			  <td></td>
+			</tr>
+		  
+			 <tr>
+			  <td>2교시</td>
+			  <td rowspan="2">웹프로그래밍</td> 
+			  <td></td>
+			  <td></td>
+			  <td rowspan="3">경영정보시스템</td>
+			  <td></td>
+			 </tr>
+	  
+			  <td>3교시</td>
+			  <td></td>
+			  <td rowspan="2">대학영어회화</td>
+			  <td></td>	
+			  
+			<tr>
+			<td>4교시</td>
+			<td rowspan="2">기업의 역사</td>
+			<td></td>
+			<td></td>
+			</tr>
+	  
+	  
+			<tr>
+			<td>5교시</td>
+			<td rowspan="3">경영통계</td>
+			<td rowspan="2">생활법률</td>
+			<td></td>
+			<td>채플</td>
+			</tr>
+	  
+			<td>6교시</td>
+			<td></td>
+			<td rowspan="2">디지털콘텐츠<br>비즈니스개론</td>
+			<td></td>
+	  
+			<tr>
+			<td>7교시</td>
+			<td></td>
+			<td></td>
+			<td>자기이해계발</td>
+			</tr>
+	  
+			<td>8교시</td>
+			<td></td>
+			<td>디지털콘텐츠<br>비즈니스개론</td>
+			<td></td>
+			<td></td>
+			<td></td>
+	  
+			<tr>
+			<td>9교시</td>
+			<td></td>
+			<td>자기주도학습</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			</tr>
+	  </table>
+</section>
+		
+<footer>
+	
+	<ul id="address">
+		<li><b>대표: 백현영</b></li><br>
+		<li><b>학과: 디지털기술경영학과</b></li><br> 
+		<li><b>주소: 세종특별자치시</b></li><br>
+		<li><b>문의 사항이 있으시면 044-2001-0207으로 연락바랍니다.</b></li>
+		</ul>
 
-</table>
-
-
+</footer>
 </body>
 </html>
